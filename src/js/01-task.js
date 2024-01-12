@@ -8,6 +8,8 @@ let biggestNumber = numbers[0];
 let message;
 
 for (const number of numbers) {
+  console.log(number);
+  
   if (number > biggestNumber) {
     biggestNumber = number;
     message = `Число ${number} є найбільшим`;

@@ -8,5 +8,7 @@ let biggestNumber = numbers[0];
 let message;
 
 for (const number of numbers) {
-  if(){}
+  if (number > biggestNumber) {
+    
+  }
 }

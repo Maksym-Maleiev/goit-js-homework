@@ -10,6 +10,6 @@ let message;
 for (const number of numbers) {
   if (number > biggestNumber) {
     biggestNumber = number;
-    message = ``
+    message = `Число `
   }
 }

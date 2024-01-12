@@ -14,4 +14,4 @@ for (const number of numbers) {
   }
 }
 
-console.log()
+console.log(message);

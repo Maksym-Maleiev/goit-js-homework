@@ -13,3 +13,5 @@ for (const number of numbers) {
     message = `Число ${number} є найбільшим`;
   }
 }
+
+console.log()

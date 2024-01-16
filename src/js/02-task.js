@@ -17,7 +17,8 @@ for (let i = 0; i < strArr.length; i += 1){
   // const reversed = chrArr.reverse();
   // const join = reversed.join('');
   // console.log(join);
-  
+
+  strArr[i]
 
   result += join;
 }

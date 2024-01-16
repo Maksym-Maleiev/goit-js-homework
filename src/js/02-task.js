@@ -18,9 +18,9 @@ for (let i = 0; i < strArr.length; i += 1){
   // const join = reversed.join('');
   // console.log(join);
 
-  strArr[i].split('').reverse().join('')
+  strArr[i].split('').reverse().join('');
 
-  result += join;
+  result += strArr[i];
 }
 
 console.log(result);

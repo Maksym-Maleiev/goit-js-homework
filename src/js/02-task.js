@@ -10,7 +10,7 @@ const string = 'Welcome to the future';
 
 const strArr = string.split(' ');
 console.log(strArr);
-let result = '';
+let result = [];
 
 for (let i = 0; i < strArr.length; i += 1){
   // const chrArr = strArr[i].split('');
@@ -19,8 +19,9 @@ for (let i = 0; i < strArr.length; i += 1){
   // console.log(join);
 
   const newChr = strArr[i].split('').reverse().join('');
+  console.log(newChr);
 
-  result += newChr;
+ result.push(newChr);
 }
 
-console.log(result);
+console.log(result.join(' '));

@@ -8,3 +8,18 @@
 // emocleW ot eht erutuf
 const string = 'Welcome to the future';
 
+const strArr = string.split(' ');
+console.log(strArr);
+let result = '';
+
+for (let i = 0; i < strArr.length; i += 1){
+  // const chrArr = strArr[i].split('');
+  // const reversed = chrArr.reverse();
+  // const join = reversed.join('');
+  // console.log(join);
+  
+
+  result += join;
+}
+
+console.log(result);

@@ -5,4 +5,6 @@
 // 2.3 зібрати слово в один рядок
 // 3. зібрати текст із масиву слів
 
+// emocleW ot eht erutuf
 const string = 'Welcome to the future';
+

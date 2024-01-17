@@ -4,6 +4,11 @@
 // Кількість імен та телефонів гарантовано однакова.
 
 const users = [
-  { namme: 'Bobby', phone: 24543543 },
-   { namme: 'Peter', phone: 345634 }
+  { name: 'Bobby', phone: 24543543 },
+  { name: 'Peter', phone: 345634 },
+  {name: 'Will', phone: 43543645},
 ]
+
+for (const user of users) {
+  console.log(`${user.name} - ${user.phone}`);
+}

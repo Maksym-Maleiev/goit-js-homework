@@ -11,4 +11,4 @@ const qweqweqwe = function (number) {
   console.log(number);
 };
 
-arr.forEach();
+arr.forEach(qweqweqwe);

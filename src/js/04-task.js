@@ -1,2 +1,2 @@
 // anonym function
-listGallery.addEvenListener('click');
+listGallery.addEvenListener('click', e);

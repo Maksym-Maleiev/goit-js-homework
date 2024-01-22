@@ -7,8 +7,8 @@ listGallery.addEvenListener('click', e => {
 
 const arr = [1, 2, 3];
 
-arr.forEach(function qweqweqwe(number) {
+const qweqweqwe = function (number) {
   console.log(number);
-});
+};
 
 arr.forEach();

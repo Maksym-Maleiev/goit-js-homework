@@ -1,0 +1,2 @@
+// anonym function
+listGallery.addEvenListener;
